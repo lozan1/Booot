@@ -23,7 +23,7 @@ async def handle_video(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 def main():
-    app = ApplicationBuilder().token(TOKEN).build()
+    app = ApplicationBuilder().token(7445462452:AAEAIilss5VMEmKYoF1rtlZ7QdyADqwsmro).build()
     app.add_handler(MessageHandler(filters.VIDEO, handle_video))
     app.run_polling()
 
